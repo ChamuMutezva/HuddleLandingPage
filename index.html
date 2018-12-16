@@ -1,30 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Huddle landing page with alternating sections</title>
 
+  <title>Frontend Mentor | Huddle landing page with alternating sections</title>
+  <link rel="stylesheet" href="main.css">
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
   </style>
 </head>
+
 <body>
   <header>
     <div>
       <img src="images/logo.svg">
-      <img src="images/bg-section-top-desktop-2.svg">
+      <span>Try it free</span>
     </div>
   </header>
+  <main>
+    <div id="introductory">
+      <h1>Build The Community Your Fans Will Love</h1>
+      <P>
+        Huddle re-imagines the way we build communities. You have a
+        voice, but so does your audience. Create connections with your
+        users as you engage in genuine discussions.
+      </P>
+      <a href="" id="getStarted">Get started for free</a>
+
+      <img src="images/screen-mockups.svg">
+
+    </div>
+
+    <div id="statistics">
+      <div id="communities">
+        <img src="images/icon-communities.svg">
+        <h1>1.4k+</h1>
+        <p>communities formed</p>
+      </div>
+
+      <div id="messages">
+        <img src="images/icon-messages.svg">
+        <h1>2.7+ </h1>
+        <p> messages sent</p>
+      </div>
+    </div>
+
+    <section id="togetherNess">
+      <img src="images/bg-section-top-desktop-1.svg">
+     
+      <div id="growTogether">
+        <div id="grow">
+          <h1>Grow Together</h1>
+          <p>
+            Generate meaningful discussions with your audience and build a
+            strong, loyal community. Think of the insightful conversations you
+            miss out on with a feedback form.
+          </p>
+        </div>
+        <img src="images/illustration-grow-together.svg">
+      </div>
+       <img src="images/bg-section-top-desktop-2.svg" id="backgroundImage2">
+
+       <div id="conversations">
+         <img src="images/illustration-flowing-conversation.svg">
+         <div id="flowing Conversation">
+           <h1>Flowing Conversation</h1>
+           <P>
+             Your wouldn't paigmate a convesation in real life, so why do it online?
+            Our threads have just-in-time loading for a more natural flow.
+           </P>
+         </div>
+       </div>
+    </section>
+
+   
+  </main>
   <footer>
-    <p class="attribution">
-      This page started life as a challenge on <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a> 🎉
-    </p>
+
   </footer>
 </body>
+
 </html>

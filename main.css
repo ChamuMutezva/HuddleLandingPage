@@ -1,0 +1,103 @@
+body {
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+header div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+header div img {
+    margin-left: 10%;
+}
+
+header div span {
+    justify-self: end;
+    margin-right: 10%;
+    border: 2px hsl(322, 100%, 66%) solid;
+    padding: 10px 30px;
+    border-radius: 20px;
+    /* justify-content: end; */
+    /* align-self: end; */
+}
+
+#introductory img {
+    display: block;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10%;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+
+a#getStarted {
+    display: block;
+    width: 20%;
+    margin: auto;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    padding: 10px 30px;
+    background-color: hsl(322, 100%, 66%);
+    border-radius: 20px;
+}
+
+p {
+    width: 60%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+div#statistics {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 80%;
+    margin-top: 5%;
+}
+
+div#communities, div#messages{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: end;
+    justify-items: center;
+}
+
+div#communities img, div#messages img {
+    padding-top: 40px;
+}
+
+div#communities h1 {}
+
+div#communities p, div#messages p {
+    width: 100%;
+    margin: 0;
+}
+section img{
+    width: 99.5%;
+    /* margin: 0; */
+    margin-bottom: -10px;
+}
+section #growTogether img {
+    width: 80%;
+}
+div#growTogether {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: hsl(207, 100%, 98%);
+}
+img#backgroundImage2 {
+    transform: rotate(180deg);
+}
+div#conversations {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 10%;
+}
