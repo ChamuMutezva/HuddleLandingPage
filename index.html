@@ -7,7 +7,7 @@
   <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-
+  <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
   <title>Frontend Mentor | Huddle landing page with alternating sections</title>
   <link rel="stylesheet" href="main.css">
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -32,7 +32,7 @@
         voice, but so does your audience. Create connections with your
         users as you engage in genuine discussions.
       </P>
-      <a href="" id="getStarted">Get started for free</a>
+      <a href="" class="getStarted">Get started for free</a>
 
       <img src="images/screen-mockups.svg">
 
@@ -53,8 +53,8 @@
     </div>
 
     <section id="togetherNess">
-      <img src="images/bg-section-top-desktop-1.svg">
-     
+      <img src="images/bg-section-top-desktop-1.svg" srcset="images/bg-section-top-desktop-1.svg 1x, images/bg-section-top-mobile-1.svg 2x" >
+
       <div id="growTogether">
         <div id="grow">
           <h1>Grow Together</h1>
@@ -66,23 +66,81 @@
         </div>
         <img src="images/illustration-grow-together.svg">
       </div>
-       <img src="images/bg-section-top-desktop-2.svg" id="backgroundImage2">
+      <img src="images/bg-section-top-desktop-2.svg" srcset="images/bg-section-top-desktop-2.svg 1x, images/bg-section-top-mobile-2.svg 2x" class="backgroundImage2">
 
-       <div id="conversations">
-         <img src="images/illustration-flowing-conversation.svg">
-         <div id="flowing Conversation">
-           <h1>Flowing Conversation</h1>
-           <P>
-             Your wouldn't paigmate a convesation in real life, so why do it online?
+      <div id="conversations">
+        <img src="images/illustration-flowing-conversation.svg">
+        <div id="flowingConversation">
+          <h1>Flowing Conversation</h1>
+          <P>
+            Your wouldn't paigmate a convesation in real life, so why do it online?
             Our threads have just-in-time loading for a more natural flow.
-           </P>
-         </div>
-       </div>
+          </P>
+        </div>
+      </div>
+
+      <div id="users">
+        <img src="images/bg-section-top-desktop-2.svg" srcset="images/bg-section-top-desktop-2.svg 1x, images/bg-section-top-mobile-2.svg 2x">
+        <div id="usersChat">
+          <div id="chats">
+            <h1>Your Users</h1>
+            <p>
+              It takes no time at all to intergrate Huddle with your app's
+              authentication solution. This means once signed in your app, your
+              users can start chatting immediately.
+            </p>
+          </div>
+          <img src="images/illustration-your-users.svg">
+        </div>
+        <img src="images/bg-section-top-desktop-2.svg" srcset="images/bg-section-top-desktop-2.svg 1x, images/bg-section-top-mobile-2.svg 2x" class="backgroundImage2">
+      </div>
+
+      <div id="buildCommunity">
+        <h1>Ready To Build Your Community?</h1>
+        <a href="" class="getStarted">Get started for free</a>
+      </div>
+
     </section>
 
-   
+
   </main>
   <footer>
+    <img src="images/bg-footer-top-desktop.svg" srcset="images/bg-footer-top-desktop.svg 1x, images/bg-footer-top-mobile.svg 2x">
+
+    <div id="footerLabel">
+    <div id="contacts">
+      <img src="images/logo.svg">
+      <p>Lorem ipsum dolor sit amet, consectetur
+        adipiscing elit. Mauris nulla quam, hendrerit
+        lacinia vestibulum a, ultrices quis sem.
+      </p>
+      <div id="contactUs">
+        <div id="phoneEmail">
+          <a href="" class="fa fa-phone" rel="noopener"><span id="phone">Phone: +1-543-123-4567</span></a>
+          <a href="" class="fa fa-envelope-square" rel="noopener"><span id="email">example@huddle.com</span></a>
+        </div>
+        <div id="socialMedia">
+          <a href="" class="fa fa-twitter" rel="noopener"></a>
+          <a href="" class="fa fa-facebook-f" rel="noopener"></a>
+          <a href="" class="fa fa-instagram" rel="noopener"></a>
+        </div>
+      </div>
+    </div>
+
+    <div id="newsLetter">
+      <h4>NEWSLETTER</h4>
+      <p>
+        To recieve tips on how to grow your community,
+        sign up to our weekly newsletter. We'll never send
+         you spam or pass your email address
+      </p>
+      <div id="signUp">
+        <input type="text" name="signName">
+        <input type="submit" value="Subscribe">
+      </div>
+    </div>
+
+  </div>
 
   </footer>
 </body>

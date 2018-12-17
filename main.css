@@ -1,7 +1,18 @@
 body {
     width: 100%;
-    font-family: "Poppins", sans-serif;
+    font-family: "Open sans", sans-serif;
     font-weight: 400;
+    overflow-x: hidden;
+}
+
+header {
+    margin-top: 7%;
+}
+
+header,
+main,
+footer {
+    margin-left: -1%;
 }
 
 header div {
@@ -38,7 +49,7 @@ h1 {
     font-weight: 700;
 }
 
-a#getStarted {
+a.getStarted {
     display: block;
     width: 20%;
     margin: auto;
@@ -63,41 +74,211 @@ div#statistics {
     margin-top: 5%;
 }
 
-div#communities, div#messages{
+div#communities,
+div#messages {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     justify-content: end;
     justify-items: center;
 }
 
-div#communities img, div#messages img {
+div#communities img,
+div#messages img {
     padding-top: 40px;
 }
 
 div#communities h1 {}
 
-div#communities p, div#messages p {
+div#communities p,
+div#messages p {
     width: 100%;
     margin: 0;
 }
-section img{
+
+section img {
     width: 99.5%;
     /* margin: 0; */
     margin-bottom: -10px;
 }
+
 section #growTogether img {
     width: 80%;
 }
+
 div#growTogether {
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: hsl(207, 100%, 98%);
 }
-img#backgroundImage2 {
+
+img.backgroundImage2 {
     transform: rotate(180deg);
+    margin-top: -5px;
 }
+
 div#conversations {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-top: 10%;
+}
+
+div#usersChat {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: hsl(207, 100%, 98%);
+}
+
+div#users {
+    margin-top: 10%;
+}
+
+div#buildCommunity {
+    margin-top: 10%;
+}
+
+footer {
+    margin-top: 10%;
+    color: white;
+}
+
+footer img {
+    width: 99.9%;
+    /* background-color: white;*/
+    margin-bottom: -10px;
+}
+
+div#footerLabel {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: hsl(192, 100%, 9%);
+    /* color: white;*/
+}
+
+#contacts {
+    margin-left: 20%;
+}
+
+#contacts p {
+    margin-left: 0;
+    text-align: start;
+    font-size: small;
+}
+
+#contacts img {
+    width: 40%;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+    /* background-color: white;*/
+    margin-top: 8%;
+}
+
+div#phoneEmail {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 50%;
+    margin-bottom: 20%;
+}
+
+div#socialMedia {
+    display: grid;
+    grid-template-columns: 30px 30px 30px;
+    margin-bottom: 20%;
+}
+
+#phone,
+#email {
+    padding: 15px;
+}
+
+#contactUs {}
+
+a.fa.fa-phone,
+a.fa.fa-envelope-square,
+a.fa.fa-twitter,
+a.fa.fa-facebook-f,
+a.fa.fa-instagram {
+    text-decoration: none;
+    color: white;
+}
+
+#newsLetter h4,
+#newsLetter p {
+    text-align: left;
+    margin-left: 0;
+    font-size: small;
+}
+
+input[type="submit"] {
+    height: 2em;
+    width: 120px;
+    background-color: hsl(322, 100%, 66%);
+    border-radius: 5px;
+    margin-left: 5%;
+    color: white;
+}
+
+input[type="text"] {
+    height: 1.5em;
+}
+
+@media only screen and (max-width: 375px) {
+    header div img {
+        width: 70%;
+    }
+
+    header div span {
+        padding: 5px 30px;
+    }
+
+    #introductory {
+        margin-top: 25%;
+    }
+
+    a.getStarted {
+        width: 50%;
+        margin: 20% auto;
+    }
+
+    div#statistics {
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
+
+    div#communities,
+    div#messages {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 15%;
+    }
+
+    div#growTogether {
+        grid-template-columns: 1fr;
+    }
+
+    div#grow {
+        grid-row: 2;
+    }
+
+    section #growTogether img {
+        grid-row: 1;
+        margin-bottom: 20%;
+    }
+
+    div#conversations {
+        grid-template-columns: 1fr;
+        margin-top: 30%;
+    }
+
+    div#usersChat {
+        grid-template-columns: 1fr;
+    }
+
+    div#chats {
+        grid-row: 2;
+    }
+
+    #usersChat img {
+        grid-row: 1;
+    }
+
 }
