@@ -281,4 +281,21 @@ input[type="text"] {
         grid-row: 1;
     }
 
+    div#footerLabel {
+        grid-template-columns: 1fr;
+    }
+
+    div#newsLetter {
+        grid-row: 1;
+    }
+
+    #newsLetter h4,
+    #newsLetter p {
+        text-align: center;
+    }
+
+    input[type="text"] {
+        display: block;
+        margin: 5%;
+    }
 }
