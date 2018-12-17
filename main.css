@@ -9,6 +9,10 @@ header {
     margin-top: 7%;
 }
 
+main {
+    margin-top: 10%;
+}
+
 header,
 main,
 footer {
@@ -43,6 +47,14 @@ header div span {
     margin-top: 10%;
 }
 
+#introductory p {
+   /* width: 31%;*/
+}
+
+#introductory h1{
+    margin: 0 5%;
+}
+
 h1 {
     text-align: center;
     font-family: "Poppins", sans-serif;
@@ -56,7 +68,7 @@ a.getStarted {
     text-decoration: none;
     text-align: center;
     color: white;
-    padding: 10px 30px;
+    padding: 20px;
     background-color: hsl(322, 100%, 66%);
     border-radius: 20px;
 }
@@ -87,7 +99,10 @@ div#messages img {
     padding-top: 40px;
 }
 
-div#communities h1 {}
+div#communities h1,
+div#messages h1 {
+    margin-top: 0;
+}
 
 div#communities p,
 div#messages p {
@@ -111,9 +126,18 @@ div#growTogether {
     background-color: hsl(207, 100%, 98%);
 }
 
+#grow h1 {
+    margin-top: 25%;
+}
+
 img.backgroundImage2 {
     transform: rotate(180deg);
     margin-top: -5px;
+}
+
+div#flowingConversation,
+div#chats h1 {
+    margin-top: 25%;
 }
 
 div#conversations {
@@ -130,6 +154,15 @@ div#usersChat {
 
 div#users {
     margin-top: 10%;
+}
+
+div#chats p {
+    width: 56%;
+    text-align: left;
+}
+
+div#chats h1 {
+    margin-right: 40%;
 }
 
 div#buildCommunity {
