@@ -220,7 +220,7 @@ input[type="text"] {
     height: 1.5em;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 650px) {
     header div img {
         width: 70%;
     }
@@ -291,11 +291,24 @@ input[type="text"] {
 
     #newsLetter h4,
     #newsLetter p {
-        text-align: center;
+        margin-left: 10%;
     }
 
     input[type="text"] {
         display: block;
-        margin: 5%;
+        width: 80%;
+        height: 3em;
+        margin: 5% auto;
+    }
+
+    input[type="submit"] {
+        height: 3em;
+        width: 45%;
+        font-size: large;
+        margin-left: 45%;
+    }
+
+    #contacts {
+        margin-left: 10%;
     }
 }
