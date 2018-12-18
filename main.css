@@ -194,7 +194,7 @@ div#footerLabel {
 #contacts p {
     margin-left: 0;
     text-align: start;
-    font-size: small;
+    font-size: large;
 }
 
 #contacts img {
@@ -225,19 +225,33 @@ div#socialMedia {
 #contactUs {}
 
 a.fa.fa-phone,
-a.fa.fa-envelope-square,
+a.fa.fa-envelope,
 a.fa.fa-twitter,
 a.fa.fa-facebook-f,
 a.fa.fa-instagram {
-    text-decoration: none;
-    color: white;
+    text-decoration: none;   
+    font-size: large;
 }
 
+a.fa.fa-phone,
+a.fa.fa-envelope {
+    color: white;
+}
+.fa-twitter, .fa-facebook-f, .fa-instagram{
+    margin: auto;
+    padding: 2px;
+    color: hsl(192, 100%, 9%);
+    background-color: white;
+}
 #newsLetter h4,
 #newsLetter p {
     text-align: left;
     margin-left: 0;
-    font-size: small;
+    font-size: large;
+}
+
+#newsLetter h4 {
+    margin-top: 8%;
 }
 
 input[type="submit"] {
