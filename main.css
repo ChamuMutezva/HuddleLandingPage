@@ -196,7 +196,7 @@ div#footerLabel {
 #contacts p {
     margin-left: 0;
     text-align: start;
-    font-size: large;
+   /* font-size: large;*/
 }
 
 #contacts img {
@@ -249,7 +249,7 @@ a.fa.fa-envelope {
 #newsLetter p {
     text-align: left;
     margin-left: 0;
-    font-size: large;
+   /* font-size: large;*/
 }
 
 #newsLetter h4 {
@@ -297,6 +297,7 @@ input[type="text"] {
     div#messages {
         display: grid;
         grid-template-columns: 1fr;
+        justify-items: center;
         margin-left: 15%;
     }
 
