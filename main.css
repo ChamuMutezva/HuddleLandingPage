@@ -91,17 +91,19 @@ div#messages {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     justify-content: end;
-    justify-items: center;
+    justify-items: start;
 }
 
 div#communities img,
 div#messages img {
     padding-top: 40px;
+    margin-left: 0;
 }
 
 div#communities h1,
 div#messages h1 {
     margin-top: 0;
+    text-align: start;
 }
 
 div#communities p,
