@@ -327,6 +327,11 @@ input[type="text"] {
         grid-row: 2;
     }
 
+    div#chats h1 {
+        margin-right: auto;
+       
+    }
+
     #usersChat img {
         grid-row: 1;
     }
