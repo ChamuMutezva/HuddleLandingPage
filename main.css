@@ -55,7 +55,7 @@ header div span {
     margin: 0 5%;
 }
 
-h1 {
+h1 , h2{
     text-align: center;
     font-family: "Poppins", sans-serif;
     font-weight: 700;
@@ -100,8 +100,8 @@ div#messages img {
     margin-left: 0;
 }
 
-div#communities h1,
-div#messages h1 {
+div#communities h2,
+div#messages h2 {
     margin-top: 0;
     text-align: start;
 }
@@ -128,7 +128,7 @@ div#growTogether {
     background-color: hsl(207, 100%, 98%);
 }
 
-#grow h1 {
+#grow h2 {
     margin-top: 25%;
 }
 
@@ -138,7 +138,7 @@ img.backgroundImage2 {
 }
 
 div#flowingConversation,
-div#chats h1 {
+div#chats h2 {
     margin-top: 25%;
 }
 
@@ -163,7 +163,7 @@ div#chats p {
     text-align: left;
 }
 
-div#chats h1 {
+div#chats h2 {
     margin-right: 40%;
 }
 
@@ -327,7 +327,7 @@ input[type="text"] {
         grid-row: 2;
     }
 
-    div#chats h1 {
+    div#chats h2 {
         margin-right: auto;
        
     }
